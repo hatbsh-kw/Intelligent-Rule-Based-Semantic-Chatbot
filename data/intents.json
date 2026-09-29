@@ -1,0 +1,272 @@
+{
+  "intents": [
+    {
+      "name": "greeting",
+      "keywords": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening"
+      ],
+      "examples": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hello, how are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi! How can I assist you?",
+        "Hello! What can I help you with?"
+      ]
+    },
+    {
+      "name": "goodbye",
+      "keywords": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "farewell"
+      ],
+      "examples": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I have to go",
+        "Talk to you later",
+        "That's all, goodbye"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Goodbye! Feel free to come back if you need help."
+      ]
+    },
+    {
+      "name": "thanks",
+      "keywords": [
+        "thanks",
+        "thank you",
+        "thank",
+        "appreciate",
+        "much appreciated"
+      ],
+      "examples": [
+        "Thanks",
+        "Thank you",
+        "Thanks for your help",
+        "I appreciate your help",
+        "Thank you very much",
+        "That was helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "You're very welcome!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "name": "help",
+      "keywords": [
+        "help",
+        "assist",
+        "assistance",
+        "what can you do",
+        "how can you help"
+      ],
+      "examples": [
+        "I need help",
+        "Can you help me?",
+        "What can you help me with?",
+        "How can you assist me?",
+        "What can you do?",
+        "I need some assistance"
+      ],
+      "responses": [
+        "I can help you with account access, password recovery, services, support, working hours, and contact information.",
+        "I can assist you with common account and service-related questions."
+      ]
+    },
+    {
+      "name": "password_reset",
+      "keywords": [
+        "password",
+        "forgot password",
+        "reset password",
+        "change password",
+        "password recovery",
+        "forgot my password"
+      ],
+      "examples": [
+        "I forgot my password",
+        "How do I reset my password?",
+        "I cannot remember my password",
+        "I need to change my password",
+        "I forgot the password I use to log in",
+        "How can I recover my password?"
+      ],
+      "responses": [
+        "You can reset your password using the password recovery option.",
+        "You can use the password recovery option to reset your password.",
+        "Please use the password reset option to create a new password."
+      ]
+    },
+    {
+      "name": "account_access",
+      "keywords": [
+        "account",
+        "login",
+        "log in",
+        "sign in",
+        "access account",
+        "account access",
+        "cannot access"
+      ],
+      "examples": [
+        "I cannot access my account",
+        "I cannot log in",
+        "I cannot sign in",
+        "I am having trouble accessing my account",
+        "Why can't I access my account?",
+        "I am unable to log into my account"
+      ],
+      "responses": [
+        "If you cannot access your account, please check your login information and try again.",
+        "If you are still unable to access your account, please contact our support team for assistance."
+      ]
+    },
+    {
+      "name": "services",
+      "keywords": [
+        "services",
+        "service",
+        "products",
+        "solutions",
+        "what do you offer",
+        "offer"
+      ],
+      "examples": [
+        "What services do you provide?",
+        "What services do you offer?",
+        "What products do you provide?",
+        "Tell me about your services",
+        "What solutions do you offer?",
+        "What do you provide?"
+      ],
+      "responses": [
+        "We provide software development, IT consulting, and digital solutions.",
+        "Our services include software development, IT consulting, and digital solutions."
+      ]
+    },
+    {
+      "name": "support",
+      "keywords": [
+        "support",
+        "customer support",
+        "technical support",
+        "support team",
+        "contact support",
+        "get help"
+      ],
+      "examples": [
+        "How can I contact support?",
+        "I need customer support",
+        "How do I reach technical support?",
+        "I need help from the support team",
+        "Can I talk to customer support?",
+        "Where can I get support?"
+      ],
+      "responses": [
+        "You can contact our support team through the available support channels.",
+        "Our support team is available to help with account and service-related issues.",
+        "Please contact our support team through the available support channels."
+      ]
+    },
+    {
+      "name": "working_hours",
+      "keywords": [
+        "working hours",
+        "business hours",
+        "opening hours",
+        "hours",
+        "open",
+        "when are you open"
+      ],
+      "examples": [
+        "What are your working hours?",
+        "When are you open?",
+        "What time do you open?",
+        "What time do you close?",
+        "When is customer support available?",
+        "What are your business hours?"
+      ],
+      "responses": [
+        "Our support team is available during the configured working hours.",
+        "Our business operates during the configured working hours.",
+        "Please check the available support hours for our current schedule."
+      ]
+    },
+    {
+      "name": "contact_information",
+      "keywords": [
+        "contact",
+        "contact information",
+        "phone",
+        "email",
+        "address",
+        "contact details"
+      ],
+      "examples": [
+        "How can I contact you?",
+        "What is your contact information?",
+        "How can I reach your company?",
+        "Do you have a phone number?",
+        "What is your email address?",
+        "Where can I find your contact details?"
+      ],
+      "responses": [
+        "You can contact us through the available phone and email channels.",
+        "Our contact information is available through the official support channels.",
+        "Please use the available contact channels to reach our team."
+      ]
+    },
+    {
+      "name": "general_information",
+      "keywords": [
+        "information",
+        "about",
+        "company",
+        "tell me about",
+        "general information"
+      ],
+      "examples": [
+        "Tell me about your company",
+        "I want some information",
+        "Can you give me more information?",
+        "What can you tell me about your company?",
+        "I want general information",
+        "Can you tell me more about your services?"
+      ],
+      "responses": [
+        "We provide software and technology-related services and solutions.",
+        "I can provide general information about our services and support."
+      ]
+    },
+    {
+      "name": "fallback",
+      "keywords": [],
+      "examples": [],
+      "responses": [
+        "I'm sorry, I don't have information about that. I can help you with account, service, and support-related questions.",
+        "I'm not sure I understand your question. I can help with account, service, and support-related topics.",
+        "I don't have enough information to answer that. Please ask about our supported services or support topics."
+      ]
+    }
+  ]
+}
