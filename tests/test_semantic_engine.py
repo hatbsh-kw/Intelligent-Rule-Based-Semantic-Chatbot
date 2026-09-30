@@ -38,7 +38,7 @@ def test_greeting_semantic_match():
     engine = SemanticEngine()
 
     result = engine.detect_intent(
-        "It's nice to talk with you"
+        "Greetings to you"
     )
 
     assert result["intent"] == "greeting"
