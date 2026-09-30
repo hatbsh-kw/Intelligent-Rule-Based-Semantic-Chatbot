@@ -17,7 +17,7 @@ class ChatbotAgent:
         self,
         intents_path="data/intents.json",
         rule_threshold=0.8,
-        semantic_threshold=0.45
+        semantic_threshold=0.40
     ):
         self.intents_path = Path(intents_path)
         self.rule_threshold = rule_threshold

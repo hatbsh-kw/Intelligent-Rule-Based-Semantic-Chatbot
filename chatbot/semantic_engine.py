@@ -17,7 +17,7 @@ class SemanticEngine:
         self,
         intents_path="data/intents.json",
         model_name="all-MiniLM-L6-v2",
-        threshold=0.45
+        threshold=0.40
     ):
         self.intents_path = Path(intents_path)
         self.model_name = model_name
